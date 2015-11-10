@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+<TextView
+        android:id="@+id/settingsAboutContent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="StormCloud provides quick access to the latest weather forecasts for Whistler Blackcomb. You can see which lifts are open and check the avalanche reports to see whether its safe to head into the backcountry." />
+    <TextView
+        android:id="@+id/settingsAboutContent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Weather data is supplied by Environment Canada. StormCloud is not liable for the accuracy of any weather, avalanche or lift data. Please follow any warning signs posted by the resort before heading into the backcountry." />
+       
+       
+       <Button
+        android:id="@+id/btnSendMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SendMessage"
+        android:text="Send Feedback"/>
+       
+ <!--   <TextView
+        android:id="@+id/settingsAboutContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="While enjoying a day on the slopes, you can find your friends on the map, and keep track of your run statistics for bragging rights at the end of the day. If you run into a tree, call ski patrol and give them your precise location." />
+   <TextView
+        android:id="@+id/settingsAboutContent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="StormCloud also provides quick access to the latest weather forecasts for Whistler Blackcomb. You can see which lifts are open and check the avalanche reports to see whether its safe to head into the backcountry." />
+    <TextView
+        android:id="@+id/settingsAboutContent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Weather data is supplied by Environment Canada." />
+      <TextView
+        android:id="@+id/settingsAboutContent4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="StormCloud was created by T4G Ltd. as part of their annual Geekfest competition." />-->  
+    
+</LinearLayout>

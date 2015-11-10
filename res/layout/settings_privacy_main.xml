@@ -1,0 +1,74 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout 
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+    <TextView
+        android:id="@+id/settingsPrivacyContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="By downloading the Storm Cloud application, you are agreeing and consenting to the privacy practices as described in this policy. We reserve the sole right to change, modify or otherwise alter this Policy at any time." />
+
+    <TextView
+        android:id="@+id/settingsPrivacyContent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Storm Cloud uses your Facebook Account to help you find your friends on the mountain." />
+
+    <TextView
+        android:id="@+id/settingsPrivacyContent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="You can opt out of storing your location by selecting &apos;NO&apos; in Settings > Use Location Services. You can also choose whether to share your location with your friends in Settings > Settings > Share Location with Friends." />
+
+    <TextView
+        android:id="@+id/settingsPrivacyContent4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Storm Cloud also uses your Facebook account to keep track of your run times, max speeds and distance travelled." />
+
+    <TextView
+        android:id="@+id/settingsPrivacyContent5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="You can opt out of sharing your speeds with your friends by selecting &apos;NO&apos; in Settings > Settings > Share Run Data with Friends." />
+
+    <TextView
+        android:id="@+id/settingsPrivacyContent6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Storm Cloud only retains your Facebook Name and ID. If you wish to have us remove these as you no longer want to use this application, please contact stormcloud@t4g.com" />
+
+    <TextView
+        android:id="@+id/settingsPrivacyContent7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="If location services or the sharing of run data with friends features are enabled, your data may be shared with our affiliated companies, after any identifying details are removed." />
+
+    <TextView
+        android:id="@+id/settingsPrivacyContent8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Storm Cloud or T4G is not liable for the accuracy of any GPS data or contact details such as those supplied for the resort ski patrol." />
+
+    <TextView
+        android:id="@+id/settingsPrivacyContent9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Storm Cloud is not directed to children under 13 years of age and we do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we take steps to remove such information and terminate the child&apos;s account. By using the Application, the Services or the Site, you are representing to us that you are not under the age of 13. If you are under 13 years of age, please do not use the Application and immediately delete it from your devices." />
+</LinearLayout></ScrollView>

@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearmain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="10dp" >
+
+         <!--    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+ -->
+                <ImageButton
+                    android:id="@+id/btnWeatherForecast"
+                    android:layout_width="300dp"
+                    android:layout_height="103dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/weather_wide"
+                    android:onClick="LoadWeatherForecast" />
+
+                <ImageButton
+                    android:id="@+id/btnLiftStatus"
+                    android:layout_width="300dp"
+                    android:layout_height="103dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/lifts_wide"
+                    android:onClick="LoadLiftStatus" />
+           <!--   </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+-->
+                <ImageButton
+                    android:id="@+id/btnAvalanche"
+                    android:layout_width="300dp"
+                    android:layout_height="103dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/avalanche_wide"
+                    android:onClick="LoadAvalanche" />
+  <!-- <ImageButton
+                android:id="@+id/btnSettings"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/settings_on"
+                android:onClick="LoadSettings" />
+              <ImageButton
+                    android:id="@+id/btnTrails"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/trails_on"
+                    android:onClick="LoadTrails" />--> 
+        <!--      </LinearLayout>
+
+           <ImageButton
+                android:id="@+id/btnSettings"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/settings_on"
+                android:onClick="LoadSettings" />--> 
+        </LinearLayout>
+    </ScrollView>
+    <!--
+ <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="hi"
+    android:drawableLeft="@drawable/trails_on" />
+    -->
+
+</LinearLayout>
